@@ -1,6 +1,6 @@
 # LP Landing page
 
-![](preview.png)
+![](preview.jpg)
 
 ## Install
 
