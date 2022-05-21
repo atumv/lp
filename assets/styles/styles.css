@@ -1,0 +1,302 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+    url('../fonts/Poppins-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+    url('../fonts/Poppins-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../fonts/Poppins-Bold.woff2') format('woff2'),
+    url('../fonts/Poppins-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 320px;
+  background-color: #f7f7f7;
+  word-break: break-word;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 30px;
+}
+
+.header {
+  background-color: #fff;
+  padding: 18px 0;
+}
+
+.logo {
+  font-family: 'Poppins-Bold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #2d2d2d;
+}
+
+.sign-up-link {
+  font-family: 'Poppins-Regular', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #2d2d2d;
+}
+
+.secondary-btn {
+  font-family: 'Poppins-Regular', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  background-color: #5f9cff;
+  padding: 19px 51px;
+  border-radius: 32px;
+}
+
+.hero {
+  background-color: #eef2ff;
+  padding: 70px 0;
+}
+
+.hero__text {
+  max-width: 468px;
+}
+
+.hero__header {
+  font-family: 'Poppins-SemiBold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 80px;
+  color: #2d2d2d;
+  line-height: 89px;
+}
+
+.hero__subheader {
+  font-family: 'Poppins-Regular', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #2d2d2d;
+  margin-top: 28px;
+  line-height: 31px;
+}
+
+.hero__buttons {
+  margin-top: 68px;
+}
+
+.cta-btn {
+  padding: 19px 82px;
+  border-radius: 50px;
+  background-color: #e44590;
+  font-family: 'Poppins-Regular', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+
+.ghost-btn {
+  padding: 18px 74px;
+  border: 1px solid #2d2d2d;
+  border-radius: 50px;
+  background-color: transparent;
+  font-family: 'Poppins-Regular', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #2b2b2b;
+}
+
+.hero__img {
+  width: 100%;
+  max-width: 500px;
+  height: 460px;
+  background-color: #c4c4c4;
+  border-radius: 5px;
+}
+
+.logos {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+.logos__brand {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.logos__nestle {
+  background-image: url('../images/logos/nestle.png');
+  width: 134px;
+  height: 35px;
+}
+
+.logos__apple {
+  background-image: url('../images/logos/apple.png');
+  width: 30px;
+  height: 35px;
+}
+
+.logos__beco {
+  background-image: url('../images/logos/beco.png');
+  width: 61px;
+  height: 40px;
+}
+
+.logos__amazon {
+  background-image: url('../images/logos/amazon.png');
+  width: 117px;
+  height: 35px;
+}
+
+.logos__google {
+  background-image: url('../images/logos/google.png');
+  width: 107px;
+  height: 35px;
+}
+
+.logos__walmart {
+  background-image: url('../images/logos/walmart.png');
+  width: 142px;
+  height: 35px;
+}
+
+.video {
+  background-color: #daf2f1;
+  padding-top: 69px;
+  padding-bottom: 62px;
+}
+
+.video__player {
+  width: 100%;
+  max-width: 773px;
+  height: auto;
+}
+
+.features {
+  background-color: #fff;
+  padding-top: 126px;
+  padding-bottom: 117px;
+}
+
+.features-container {
+  margin: 0 auto;
+  max-width: 1205px;
+  padding: 0 30px;
+}
+
+.feature__img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+  border: 1px solid #000;
+  background-color: #c4c4c4;
+}
+
+.feature__title {
+  font-family: 'Poppins-SemiBold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #2d2d2d;
+}
+
+.feature__description {
+  font-family: 'Poppins-Regular', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #2d2d2d;
+}
+
+.feedback {
+  background-color: #daf2f1;
+  padding-top: 193px;
+  padding-bottom: 143px;
+}
+
+.feedback-container {
+  margin: 0 auto;
+  max-width: 690px;
+}
+
+.feedback__quote-marks {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 180px;
+  color: #2d2d2d;
+  line-height: 15px;
+}
+
+.feedback__quote {
+  font-family: 'Poppins-SemiBold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 24px;
+  color: #2d2d2d;
+  line-height: 38px;
+}
+
+.feedback__quote-author {
+  font-family: 'Poppins-Regular', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #2d2d2d;
+}
+
+.cta {
+  background-color: #eef2ff;
+  padding-top: 93px;
+  padding-bottom: 106px;
+}
+
+.cta__header {
+  font-family: 'Poppins-SemiBold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 80px;
+  color: #2d2d2d;
+}
+
+.cta__subheader {
+  font-family: 'Poppins-Regular', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #2d2d2d;
+  line-height: 31px;
+}
+
+.contact-btn {
+  font-family: 'Poppins-Regular', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  background-color: #e44590;
+  padding: 19px 50px;
+  border-radius: 50px;
+}
+
+.footer {
+  background-color: #fff;
+  padding: 53px 0;
+}
+
+.footer-logo {
+  cursor: default;
+}
+
+.copyright,
+.policy-link,
+.terms-link {
+  font-family: 'Poppins-SemiBold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #2d2d2d;
+}
+
+.socials__img {
+  max-width: 30px;
+  max-height: 30px;
+  width: 30px;
+  height: 30px;
+}
